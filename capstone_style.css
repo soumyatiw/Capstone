@@ -56,7 +56,7 @@ body{
 .sub_content{
     display: flex;
     flex-wrap: wrap;
-    width: 1344px;
+    width: auto;
     justify-content: space-between;
     gap: 48px;
 }
