@@ -142,6 +142,15 @@ body{
     display: flex;
     justify-content: space-between;
     width: 100%;
+    transition: all 0.3s ease;
+}
+.contact_info a{
+    text-decoration: none;
+    color: black;
+    transition: all 0.3s ease;
+}
+.contact_info a:hover{
+    color: #6f0cdf;
 }
 .contact_text{
     height: 32px;
@@ -149,10 +158,11 @@ body{
     font-family: "DotGothic16";
 }
 .additional_info{
+    margin-right: 30px;
     height: 112px;
     width: 648px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .block_text{
     font-size: 17px;
@@ -259,11 +269,28 @@ body{
     border: 1.5px solid black;
     border-radius: 8px;
     padding: 10px;
+    transition: all 0.3s ease;
+}
+.contact-btn:hover{
+    background-color: #181288;
+    scale: 1.05;
+    color: white;
 }
 .copyright{
     font-family: 'DotGothic16',sans-serif;
     font-size: 28px;
 }
+.block_text{
+    transition: all 0.3s ease;
+}
+.block_text:hover{
+    width:150px;
+    border-radius: 5px;
+    background-color: rgb(196, 196, 196);
+    padding: 5px;
+    cursor: pointer;
+}
+
 @media screen and (max-width: 375px){
     body{
         width: auto;
@@ -324,4 +351,5 @@ body{
     }
     
 }
+/* Thanks Beyonce!😭 for giving me this opportunity to complete this project, I am very grateful 😭*/
 
